@@ -14,16 +14,15 @@ A Retail Sales Management System is a database-driven project designed to manage
 
 **🧱 Core Database Structure**
 
-In SQL, the retail sales system is usually built with related tables like:
 	1.	customers
-	•	customer_id (PK), name, city, email
-	•	Stores who is buying.
+		•	customer_id (PK), name, city, email
+		•	Stores who is buying.
 	2.	products
-	•	product_id (PK), name, category, price
-	•	Stores what is being sold.
+		•	product_id (PK), name, category, price
+		•	Stores what is being sold.
 	3.	orders
-	•	order_id (PK), customer_id (FK), order_date, total_amount
-	•	One record per order placed by a customer.
+		•	order_id (PK), customer_id (FK), order_date, total_amount
+		•	One record per order placed by a customer.
 	4.	order_items
-	•	order_item_id (PK), order_id (FK), product_id (FK), quantity, subtotal
-	•	Line-level details of each product inside an order.
+		•	order_item_id (PK), order_id (FK), product_id (FK), quantity, subtotal
+		•	Line-level details of each product inside an order.
