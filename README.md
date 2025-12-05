@@ -1,1 +1,1 @@
-# SQL--Sales-Database
+# SQL-Sales-Database
